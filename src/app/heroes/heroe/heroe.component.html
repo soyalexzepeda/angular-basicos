@@ -1,0 +1,23 @@
+<h1>Heroe Component Works</h1>
+
+<dl>
+     <td> Nombre del Heroe: </td>
+     <dd> {{ nombre }} </dd>
+
+     <td> Edad del Heroe: </td>
+     <dd> {{ edad }} </dd>
+
+     <td> Nombre Capitalizado </td>
+     <dd> {{ capitalizarNombre }} </dd>
+
+     <td> Funciones </td>
+     <dd> {{ obtenerInfo() }} </dd>
+</dl>
+
+<button (click)="cambiarNombre()">
+     Cambiar Heroe
+</button>
+
+<button (click)="cambiarEdad()">
+     Cambiar Edad
+</button>
